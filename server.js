@@ -87,6 +87,9 @@
 
     logger.info("starting %s", process.pid);
 
+    logger.info("... environment variables = " +JSON.stringify(process.env));
+    logger.info("... process.env.APP_ENV = " +process.env.APP_ENV);
+
     process.on("uncaughtException", function (err) {
         logger.error("uncaught exception", err,  err && err.stack);
         process.exit();
