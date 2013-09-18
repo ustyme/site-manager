@@ -104,6 +104,8 @@
     function start(){
         launcher.start(PORT, SSL_PORT, SSL_KEY, SSL_CERT, function (err) {
             logger("Started...");
+            logger("... environment variables = " +JSON.stringify(process.env));
+            logger("... process.env.APP_ENV = " +process.env.APP_ENV);
             handleError("starting", err);
             watchAll();
         });
