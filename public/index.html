@@ -70,6 +70,9 @@ mathiasbynens.be/notes/async-analytics-snippet -->
 <script>
     var _gaq = [
         ['_setAccount', '{{googleAnalyticsWebPropertyID}}'],
+        {{#if domain}}
+        _gaq.push(['_setDomainName', '{{domain}}']),
+        {{/if}}
         ['_trackPageview']
     ];
     (function (d, t) {
