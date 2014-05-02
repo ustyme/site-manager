@@ -29,9 +29,9 @@
      * Override this handler if you would like to handle the update differently
      */
     app.cache.updateReady = app.cache.updateReady || function () {
-        if (confirm('Program updates are available. Load them now?')) {
+//        if (confirm('Program updates are available. Load them now?')) {
             window.location.reload();
-        }
+//        }
     };
 
     function getCacheStatus() {
