@@ -20,7 +20,8 @@
         "jolira-logger": "*",
         "batch":"*",
         "site-assets": "git://github.com/ustyme/site-assets.git",
-        "async": "0.2.9"
+        "async": "0.2.9",
+        "uglify-js":"1.2.6"
     },
     "bin": {
         "site-manager": "./bin/site-manager"
@@ -29,8 +30,7 @@
         "debug":"*",
         "horaa":"*",
         "vows":"*",
-        "jake":"*",
-        "uglify-js":"*"
+        "jake":"*"
     },
     "scripts":{
         "test":"jake test",
