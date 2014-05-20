@@ -21,7 +21,8 @@
         "batch":"*",
         "site-assets": "git://github.com/ustyme/site-assets.git",
         "async": "0.2.9",
-        "uglify-js":"1.3.3"
+        "uglify-js":"1.3.3",
+        "request": "2.36.0"
     },
     "bin": {
         "site-manager": "./bin/site-manager"
