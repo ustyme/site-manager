@@ -8,7 +8,7 @@
 
     // See http://www.html5rocks.com/en/tutorials/cache/beginner
     var cache = window.applicationCache,
-        app = window["jolira-app"] = window["jolira-app"] || {};
+        app = window["web-app"] = window["web-app"] || {};
 
     app.debug =
         app.log = function () {
