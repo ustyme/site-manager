@@ -11,7 +11,7 @@
         "type":"git"
     },
     "dependencies":{
-        "handlebars":"*",
+        "handlebars":"3.0.3",
         "404project":"*",
         "connect-less-jolira":"*",
         "directory-tree-watcher":"*",
