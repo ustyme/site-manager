@@ -6,6 +6,7 @@
 //     http://backbonejs.org
 
 (function(){
+    console.log('4 Hello!');
 
     // Initial Setup
     // -------------
