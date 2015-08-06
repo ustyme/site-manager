@@ -183,4 +183,4 @@ To execute tests execute: `jake test`
 License
 -----------------
 
-[MIT License](https://raw.github.com/jolira/site-manager/master/LICENSE.txt)
+[MIT License](https://raw.github.com/jolira/site-manager/master/LICENSE.txt) 
