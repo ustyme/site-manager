@@ -22,7 +22,7 @@
     <title>{{title}}</title>
     {{/if}}
     {{#each metas}}
-    <meta name="{{name}}" content="{{content}}">
+    <meta {{#if property}} property="{{property}}" {{/if}} {{#if name}} name="{{name}}" {{/if}} content="{{content}}">
     {{/each}}
     {{#each links}}
     {{#if sizes}}
