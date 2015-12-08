@@ -5,8 +5,6 @@
 
 (function() {
 
-    console.log('3 Hello!');
-
     // Baseline setup
     // --------------
 
