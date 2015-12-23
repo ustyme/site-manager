@@ -430,7 +430,7 @@
       }
     },
     "site-assets": {
-      "version": "git://github.com/ustyme/site-assets.git",
+      "version": "0.0.1",
       "dependencies": {
         "mobile-agent": {
           "version": "0.0.8",
